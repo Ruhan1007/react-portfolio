@@ -41,7 +41,7 @@ function GitHubStats({ username }) {
             <img src={stats.avatar_url} alt="GitHub Avatar" width="100" style={{borderRadius: '50%'}} />
             <div className="stats-info">
                 <h3>{stats.name || username}</h3>
-                <p>Public Repos: <strong>{stats.public_repos}</strong></p>
+                <p>Public Repositories: <strong>{stats.public_repos}</strong></p>
                 <p>Followers: <strong>{stats.followers}</strong></p>
             </div>
         </div>
