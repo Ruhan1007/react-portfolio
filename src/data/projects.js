@@ -1,4 +1,4 @@
-export const categories = ['all', 'web', 'design'];
+export const categories = ['all', 'web', 'IoT', 'cybersecurity'];
 
 export const projectsData = [
   {
@@ -8,7 +8,7 @@ export const projectsData = [
     longDesc:
       'A cybersecurity platform that analyzes suspicious URLs and detects phishing attacks using machine learning techniques. The application provides real-time threat analysis through an interactive web interface.',
     tech: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
-    category: 'web',
+    category: 'cybersecurity',
     featured: false,
     liveUrl: 'https://phish-guard-ruddy.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/PhishGuard'
@@ -21,7 +21,7 @@ export const projectsData = [
     longDesc:
       'An Arduino-based system that continuously monitors water quality using a turbidity sensor and displays the results on an LCD screen. The system classifies water as clear, cloudy, or dirty in real time.',
     tech: ['Arduino', 'C++', 'IoT', 'Sensors'],
-    category: 'design',
+    category: 'IoT',
     featured: false,
     liveUrl: 'https://web-water-quality-monitor.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/web-water-quality-monitor'
@@ -34,7 +34,7 @@ export const projectsData = [
     longDesc:
       'An IoT-based disaster management solution capable of detecting fire, gas leaks, and flooding while automatically triggering preventive actions such as shutting off valves, activating exhaust systems, and sending alerts.',
     tech: ['Arduino', 'IoT', 'WiFi', 'Sensors'],
-    category: 'design',
+    category: 'IoT',
     featured: false,
     liveUrl: 'https://smart-web-multi-hazard-system.vercel.app/',
     githubUrl:
@@ -74,7 +74,7 @@ export const projectsData = [
     longDesc:
       'A cybersecurity platform focused on digital safety, threat awareness, vulnerability assessment, and security best practices through an interactive and user-friendly interface.',
     tech: ['React', 'Node.js', 'Cybersecurity'],
-    category: 'web',
+    category: 'cybersecurity',
     featured: false,
     liveUrl: 'https://cybershield-kohl.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/cybershield'
