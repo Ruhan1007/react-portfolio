@@ -100,3 +100,5 @@ export const SKILLS = [
   { name: 'JavaScript', level: 'Advanced', icon: '⚡' },
   { name: 'React', level: 'Intermediate', icon: '⚛️' }
 ];
+
+// Updated react portfolio.
