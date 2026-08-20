@@ -101,4 +101,4 @@ export const SKILLS = [
   { name: 'React', level: 'Intermediate', icon: '⚛️' }
 ];
 
-// Updated react portfolio.
+// Updated react portfolio for deployment via GitHub.
