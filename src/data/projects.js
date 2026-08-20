@@ -9,7 +9,7 @@ export const projectsData = [
       'A cybersecurity platform that analyzes suspicious URLs and detects phishing attacks using machine learning techniques. The application provides real-time threat analysis through an interactive web interface.',
     tech: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
     category: 'web',
-    featured: true,
+    featured: false,
     liveUrl: 'https://phish-guard-ruddy.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/PhishGuard'
   },
@@ -22,7 +22,7 @@ export const projectsData = [
       'An Arduino-based system that continuously monitors water quality using a turbidity sensor and displays the results on an LCD screen. The system classifies water as clear, cloudy, or dirty in real time.',
     tech: ['Arduino', 'C++', 'IoT', 'Sensors'],
     category: 'design',
-    featured: true,
+    featured: false,
     liveUrl: 'https://web-water-quality-monitor.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/web-water-quality-monitor'
   },
@@ -49,7 +49,7 @@ export const projectsData = [
       'A structured roadmap designed for B.Tech Computer Science students covering programming, data structures, algorithms, web development, cybersecurity, artificial intelligence, and career preparation.',
     tech: ['React', 'JavaScript', 'Education'],
     category: 'web',
-    featured: false,
+    featured: true,
     liveUrl: 'https://btech-cse-dashboard.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/btech-roadmap'
   },
@@ -62,7 +62,7 @@ export const projectsData = [
       'A responsive weather application that provides current weather conditions, temperature, humidity, wind speed, and multi-day forecasts for cities around the world.',
     tech: ['React', 'API', 'JavaScript'],
     category: 'web',
-    featured: false,
+    featured: true,
     liveUrl: 'https://weather-app-zeta-sooty-95.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/weather_app'
   },
@@ -92,4 +92,11 @@ export const projectsData = [
     liveUrl: 'https://ruhan-portfolio-eta.vercel.app/',
     githubUrl: 'https://github.com/Ruhan1007/personal_portfolio'
   }
+];
+
+export const SKILLS = [
+  { name: 'HTML5', level: 'Advanced', icon: '🌐' },
+  { name: 'CSS3', level: 'Advanced', icon: '🎨' },
+  { name: 'JavaScript', level: 'Advanced', icon: '⚡' },
+  { name: 'React', level: 'Intermediate', icon: '⚛️' }
 ];

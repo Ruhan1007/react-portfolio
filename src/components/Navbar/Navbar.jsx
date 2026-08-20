@@ -8,7 +8,7 @@ function Navbar({ theme, toggleTheme }) {
     return (
         <header className="site-header">
             <nav className="navbar">
-                <div className="logo">SD</div>
+                <div className="logo">RSK</div>
                 
                 <ul className={isMenuOpen ? "nav-links open" : "nav-links"}>
                     <li>
